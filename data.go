@@ -1,10 +1,12 @@
 package whois
 
-var data = `
+// Source: https://github.com/weppos/whois/blob/master/data/tld.json
+// MIT License
+var data = []byte(`
 {
   "_": {
     "schema": "2",
-    "updated": "2018-03-26 13:29:17 UTC"
+    "updated": "2018-03-26 13:29:17 utc"
   },
   "aaa": {
     "_type": "newgtld",
@@ -652,7 +654,7 @@ var data = `
   },
   "bm": {
     "adapter": "web",
-    "url": "http://www.bermudanic.bm/cgi-bin/lansaweb?procfun+BMWHO+BMWHO2+WHO"
+    "url": "http://www.bermudanic.bm/cgi-bin/lansaweb?procfun+bmwho+bmwho2+who"
   },
   "bms": {
     "_type": "newgtld",
@@ -975,7 +977,7 @@ var data = `
   "cat": {
     "host": "whois.nic.cat",
     "adapter": "formatted",
-    "format": "-C US-ASCII ace %s"
+    "format": "-c us-ascii ace %s"
   },
   "catering": {
     "_group": "donuts",
@@ -1557,7 +1559,7 @@ var data = `
   "de": {
     "host": "whois.denic.de",
     "adapter": "formatted",
-    "format": "-T dn,ace %s"
+    "format": "-t dn,ace %s"
   },
   "com.de": {
     "_group": "centralnic",
@@ -2531,7 +2533,7 @@ var data = `
   },
   "gr": {
     "adapter": "web",
-    "url": "https://grweb.ics.forth.gr/Whois?lang=en"
+    "url": "https://grweb.ics.forth.gr/whois?lang=en"
   },
   "grainger": {
     "_type": "newgtld",
@@ -3081,7 +3083,7 @@ var data = `
   },
   "jo": {
     "adapter": "web",
-    "url": "http://www.dns.jo/Whois.aspx"
+    "url": "http://www.dns.jo/whois.aspx"
   },
   "jobs": {
     "host": "whois.nic.jobs",
@@ -4510,7 +4512,7 @@ var data = `
   },
   "pn": {
     "adapter": "web",
-    "url": "http://www.pitcairn.pn/PnRegistry/"
+    "url": "http://www.pitcairn.pn/pnregistry/"
   },
   "pnc": {
     "_group": "afiliassrs",
@@ -5900,7 +5902,7 @@ var data = `
   },
   "com.uy": {
     "adapter": "web",
-    "url": "https://nic.anteldata.com.uy/dns/consultaWhois/whois.action"
+    "url": "https://nic.anteldata.com.uy/dns/consultawhois/whois.action"
   },
   "uz": {
     "host": "whois.cctld.uz"
@@ -6979,4 +6981,4 @@ var data = `
     "adapter": "none"
   }
 }
-`
+`)
