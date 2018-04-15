@@ -10,7 +10,8 @@ import (
 
 	"github.com/araddon/dateparse"
 	"github.com/likexian/whois-parser-go"
-	"golang.org/x/net/publicsuffix"
+	//"golang.org/x/net/publicsuffix"
+	"github.com/weppos/publicsuffix-go/net/publicsuffix"
 )
 
 const (
