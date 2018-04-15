@@ -9,7 +9,6 @@ import (
 	"time"
 
 	"github.com/araddon/dateparse"
-	"github.com/davecgh/go-spew/spew"
 	"github.com/likexian/whois-parser-go"
 	"golang.org/x/net/publicsuffix"
 )
@@ -65,7 +64,7 @@ func Whois(domain string) *Result {
 		return &result
 	}
 	result.Server = server
-	spew.Dump(server)
+	//spew.Dump(server)
 	raw, err := Query(domain, server.Host)
 	if err != nil {
 		result.Error = err
