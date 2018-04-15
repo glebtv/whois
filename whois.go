@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"errors"
 	"io/ioutil"
-	"log"
 	"net"
 	"strings"
 	"time"
@@ -73,7 +72,7 @@ func Whois(domain string) *Result {
 		return &result
 	}
 	result.Raw = raw
-	log.Println(raw)
+	//log.Println(raw)
 
 	parsed, err := whois_parser.Parse(result.Raw)
 	if err != nil {
