@@ -9,8 +9,7 @@ import (
 	"time"
 
 	"github.com/araddon/dateparse"
-	"github.com/likexian/whois-parser-go"
-	//"golang.org/x/net/publicsuffix"
+	whois_parser "github.com/likexian/whois-parser-go"
 	"github.com/weppos/publicsuffix-go/net/publicsuffix"
 )
 

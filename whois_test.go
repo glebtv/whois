@@ -9,31 +9,34 @@
 
 package whois
 
-
 import (
-    "testing"
-    "github.com/bmizerany/assert"
+	"testing"
+
+	"github.com/bmizerany/assert"
 )
 
-
 func TestWhois(t *testing.T) {
-    result, err := Whois("likexian")
-    assert.NotEqual(t, nil, err)
-    assert.Equal(t, "", result)
+	result := Whois("rsmon")
+	assert.NotEqual(t, nil, result.Error)
+	assert.Equal(t, "", result.Raw)
+	assert.NotEqual(t, nil, result.Expires)
 
-    result, err = Whois("likexian.com")
-    assert.Equal(t, nil, err)
-    assert.NotEqual(t, "", result)
+	result = Whois("rsmon.ru")
+	assert.Equal(t, nil, result.Error)
+	assert.NotEqual(t, "", result.Raw)
+	assert.NotEqual(t, nil, result.Expires)
 
-    result, err = Whois("likexian.com", "127.0.0.1")
-    assert.NotEqual(t, nil, err)
-    assert.Equal(t, "", result)
+	//result, err = Whois("likexian.com", "127.0.0.1")
+	//assert.Equal(t, nil, Resut.Error)
+	//assert.Equal(t, "", result)
 
-    result, err = Whois("likexian.com", "com.whois-servers.net")
-    assert.Equal(t, nil, err)
-    assert.NotEqual(t, "", result)
+	//result, err := Query("rocketmon.com", "com.whois-servers.net")
+	//assert.Equal(t, nil, err)
+	//assert.NotEqual(t, "", result.Raw)
+	//assert.NotEqual(t, nil, result.Expires)
 
-    result, err = Whois("likexian.com.cn")
-    assert.Equal(t, nil, err)
-    assert.NotEqual(t, "", result)
+	result = Whois("gleb.tv")
+	assert.Equal(t, nil, result.Error)
+	assert.NotEqual(t, "", result.Raw)
+	assert.NotEqual(t, nil, result.Expires)
 }
