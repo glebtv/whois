@@ -5,7 +5,6 @@ import (
 	"errors"
 	"io/ioutil"
 	"net"
-	"strings"
 	"time"
 
 	"github.com/araddon/dateparse"
@@ -80,17 +79,17 @@ func Whois(domain string) *Result {
 	}
 	result.Result = parsed
 
-	result.Nameservers = strings.Split(parsed.Registrar.NameServers, ",")
+	result.Nameservers = parsed.Domain.NameServers
 
-	if parsed.Registrar.CreatedDate != "" {
-		t, err := dateparse.ParseAny(parsed.Registrar.CreatedDate)
+	if parsed.Domain.CreatedDate != "" {
+		t, err := dateparse.ParseAny(parsed.Domain.CreatedDate)
 		if err == nil {
 			result.Created = t
 		}
 	}
 
-	if parsed.Registrar.ExpirationDate != "" {
-		t, err := dateparse.ParseAny(parsed.Registrar.ExpirationDate)
+	if parsed.Domain.ExpirationDate != "" {
+		t, err := dateparse.ParseAny(parsed.Domain.ExpirationDate)
 		if err == nil {
 			result.Expires = t
 		}
