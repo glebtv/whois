@@ -6,7 +6,7 @@ var data = []byte(`
 {
   "_": {
     "schema": "2",
-    "updated": "2018-03-26 13:29:17 utc"
+    "updated": "2021-03-02 11:55:00 UTC"
   },
   "aaa": {
     "_type": "newgtld",
@@ -74,11 +74,6 @@ var data = []byte(`
     "host": "whois.nic.accountants"
   },
   "aco": {
-    "_group": "afiliassrs",
-    "_type": "newgtld",
-    "host": "whois.afilias-srs.net"
-  },
-  "active": {
     "_group": "afiliassrs",
     "_type": "newgtld",
     "host": "whois.afilias-srs.net"
@@ -199,7 +194,7 @@ var data = []byte(`
   "allfinanz": {
     "_group": "ksregistry",
     "_type": "newgtld",
-    "host": "whois.ksregistry.net"
+    "host": "whois.nic.allfinanz"
   },
   "allstate": {
     "_group": "afiliassrs",
@@ -361,7 +356,7 @@ var data = []byte(`
     "host": "whois.nic.attorney"
   },
   "au": {
-    "host": "whois.audns.net.au"
+    "host": "whois.auda.org.au"
   },
   "auction": {
     "_group": "donuts",
@@ -376,7 +371,7 @@ var data = []byte(`
   "audible": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.audible"
   },
   "audio": {
     "_group": "uniregistry",
@@ -390,7 +385,7 @@ var data = []byte(`
   "author": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.author"
   },
   "auto": {
     "_group": "uniregistry",
@@ -413,7 +408,7 @@ var data = []byte(`
   "aws": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.aws"
   },
   "ax": {
     "host": "whois.ax"
@@ -436,7 +431,7 @@ var data = []byte(`
   },
   "baby": {
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.baby"
   },
   "baidu": {
     "_group": "knet",
@@ -630,10 +625,6 @@ var data = []byte(`
     "_type": "newgtld",
     "host": "whois.uniregistry.net"
   },
-  "blanco": {
-    "_type": "newgtld",
-    "host": "whois.nic.blanco"
-  },
   "blockbuster": {
     "_group": "afiliassrs",
     "_type": "newgtld",
@@ -654,7 +645,7 @@ var data = []byte(`
   },
   "bm": {
     "adapter": "web",
-    "url": "http://www.bermudanic.bm/cgi-bin/lansaweb?procfun+bmwho+bmwho2+who"
+    "url": "http://www.bermudanic.bm/cgi-bin/lansaweb?procfun+BMWHO+BMWHO2+WHO"
   },
   "bms": {
     "_type": "newgtld",
@@ -663,15 +654,10 @@ var data = []byte(`
   "bmw": {
     "_group": "ksregistry",
     "_type": "newgtld",
-    "host": "whois.ksregistry.net"
+    "host": "whois.nic.bmw"
   },
   "bn": {
     "host": "whois.bnnic.bn"
-  },
-  "bnl": {
-    "_group": "afiliassrs",
-    "_type": "newgtld",
-    "host": "whois.nic.bnl"
   },
   "bnpparibas": {
     "_group": "afiliassrs",
@@ -712,15 +698,11 @@ var data = []byte(`
   "book": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.book"
   },
   "booking": {
     "_type": "newgtld",
     "adapter": "none"
-  },
-  "boots": {
-    "_type": "newgtld",
-    "host": "whois.nic.boots"
   },
   "bosch": {
     "_type": "newgtld",
@@ -739,7 +721,7 @@ var data = []byte(`
   "bot": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.bot"
   },
   "boutique": {
     "_group": "donuts",
@@ -815,7 +797,7 @@ var data = []byte(`
   "buy": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "host": "whois.afilias-srs.net"
+    "host": "whois.nic.buy"
   },
   "buzz": {
     "_type": "newgtld",
@@ -868,7 +850,7 @@ var data = []byte(`
   "call": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.call"
   },
   "calvinklein": {
     "_type": "newgtld",
@@ -877,7 +859,7 @@ var data = []byte(`
   "cam": {
     "_group": "ksregistry",
     "_type": "newgtld",
-    "host": "whois.ksregistry.net"
+    "host": "whois.nic.cam"
   },
   "camera": {
     "_group": "donuts",
@@ -945,10 +927,6 @@ var data = []byte(`
     "_type": "newgtld",
     "host": "whois.uniregistry.net"
   },
-  "cartier": {
-    "_type": "newgtld",
-    "adapter": "none"
-  },
   "casa": {
     "_group": "mmregistry",
     "_type": "newgtld",
@@ -975,9 +953,7 @@ var data = []byte(`
     "host": "whois.nic.casino"
   },
   "cat": {
-    "host": "whois.nic.cat",
-    "adapter": "formatted",
-    "format": "-c us-ascii ace %s"
+    "host": "whois.nic.cat"
   },
   "catering": {
     "_group": "donuts",
@@ -1058,6 +1034,11 @@ var data = []byte(`
     "_type": "newgtld",
     "host": "whois.nic.google"
   },
+  "charity": {
+    "_group": "donuts",
+    "_type": "newgtld",
+    "host": "whois.nic.charity"
+  },
   "chase": {
     "_type": "newgtld",
     "adapter": "none"
@@ -1086,11 +1067,6 @@ var data = []byte(`
     "_type": "newgtld",
     "host": "whois.nic.google"
   },
-  "chrysler": {
-    "_group": "afiliassrs",
-    "_type": "newgtld",
-    "host": "whois.afilias-srs.net"
-  },
   "church": {
     "_group": "donuts",
     "_type": "newgtld",
@@ -1107,7 +1083,7 @@ var data = []byte(`
   "circle": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.cirle"
   },
   "cisco": {
     "_type": "newgtld",
@@ -1216,7 +1192,7 @@ var data = []byte(`
   "cologne": {
     "_group": "knipp",
     "_type": "newgtld",
-    "host": "whois-fe1.pdt.cologne.tango.knipp.de"
+    "host": "whois.ryce-rsp.com"
   },
   "com": {
     "host": "whois.verisign-grs.com",
@@ -1410,14 +1386,14 @@ var data = []byte(`
     "host": "whois-corsica.nic.fr"
   },
   "country": {
-    "_group": "mmregistry",
+    "_group": "uniregistry",
     "_type": "newgtld",
-    "host": "whois-dub.mm-registry.com"
+    "host": "whois.uniregistry.net"
   },
   "coupon": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.coupon"
   },
   "coupons": {
     "_group": "donuts",
@@ -1559,7 +1535,7 @@ var data = []byte(`
   "de": {
     "host": "whois.denic.de",
     "adapter": "formatted",
-    "format": "-t dn,ace %s"
+    "format": "-T dn,ace %s"
   },
   "com.de": {
     "_group": "centralnic",
@@ -1569,7 +1545,7 @@ var data = []byte(`
   "deal": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.deal"
   },
   "dealer": {
     "_type": "newgtld",
@@ -1621,7 +1597,7 @@ var data = []byte(`
   "desi": {
     "_group": "ksregistry",
     "_type": "newgtld",
-    "host": "whois.ksregistry.net"
+    "host": "whois.nic.desi"
   },
   "design": {
     "_type": "newgtld",
@@ -1709,19 +1685,10 @@ var data = []byte(`
     "_type": "newgtld",
     "host": "whois.nic.doctor"
   },
-  "dodge": {
-    "_group": "afiliassrs",
-    "_type": "newgtld",
-    "host": "whois.afilias-srs.net"
-  },
   "dog": {
     "_group": "donuts",
     "_type": "newgtld",
     "host": "whois.nic.dog"
-  },
-  "doha": {
-    "_type": "newgtld",
-    "host": "whois.nic.doha"
   },
   "domains": {
     "_group": "donuts",
@@ -1763,10 +1730,6 @@ var data = []byte(`
     "_type": "newgtld",
     "host": "whois.nic.dunlop"
   },
-  "duns": {
-    "_type": "newgtld",
-    "adapter": "none"
-  },
   "dupont": {
     "_type": "newgtld",
     "adapter": "none"
@@ -1779,7 +1742,7 @@ var data = []byte(`
   "dvag": {
     "_group": "ksregistry",
     "_type": "newgtld",
-    "host": "whois.ksregistry.net"
+    "host": "whois.nic.dvag"
   },
   "dvr": {
     "_group": "afiliassrs",
@@ -1804,7 +1767,7 @@ var data = []byte(`
   "eco": {
     "_group": "afiliassrs",
     "_type": "newgtld",
-    "host": "whois.afilias-srs.net"
+    "host": "whois.nic.eco"
   },
   "edeka": {
     "_group": "afiliassrs",
@@ -1855,10 +1818,6 @@ var data = []byte(`
     "_group": "donuts",
     "_type": "newgtld",
     "host": "whois.nic.enterprises"
-  },
-  "epost": {
-    "_type": "newgtld",
-    "adapter": "none"
   },
   "epson": {
     "_group": "aridnrs",
@@ -1916,16 +1875,12 @@ var data = []byte(`
   "eus": {
     "_group": "coreregistry",
     "_type": "newgtld",
-    "host": "whois.eus.coreregistry.net"
+    "host": "whois.nic.eus"
   },
   "events": {
     "_group": "donuts",
     "_type": "newgtld",
     "host": "whois.nic.events"
-  },
-  "everbank": {
-    "_type": "newgtld",
-    "host": "whois.nic.everbank"
   },
   "exchange": {
     "_group": "donuts",
@@ -1976,7 +1931,7 @@ var data = []byte(`
     "host": "whois.nic.family"
   },
   "fan": {
-    "_group": "centralnic",
+    "_group": "donuts",
     "_type": "newgtld",
     "host": "whois.nic.fan"
   },
@@ -2002,7 +1957,7 @@ var data = []byte(`
   "fast": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.fast"
   },
   "fedex": {
     "_group": "afiliassrs",
@@ -2062,7 +2017,7 @@ var data = []byte(`
   "fire": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.fire"
   },
   "firestone": {
     "_type": "newgtld",
@@ -2175,7 +2130,7 @@ var data = []byte(`
   },
   "fox": {
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.fox"
   },
   "fr": {
     "host": "whois.nic.fr"
@@ -2238,12 +2193,12 @@ var data = []byte(`
   "free": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.free"
   },
   "fresenius": {
     "_group": "ksregistry",
     "_type": "newgtld",
-    "host": "whois.ksregistry.net"
+    "host": "whois.nic.fresenius"
   },
   "frl": {
     "_type": "newgtld",
@@ -2252,7 +2207,7 @@ var data = []byte(`
   "frogans": {
     "_group": "nicfr",
     "_type": "newgtld",
-    "host": "whois-frogans.nic.fr"
+    "host": "whois.nic.frogans"
   },
   "frontdoor": {
     "_type": "newgtld",
@@ -2306,7 +2261,7 @@ var data = []byte(`
   "gal": {
     "_group": "coreregistry",
     "_type": "newgtld",
-    "host": "whois.gal.coreregistry.net"
+    "host": "whois.nic.gal"
   },
   "gallery": {
     "_group": "donuts",
@@ -2350,6 +2305,7 @@ var data = []byte(`
     "host": "whois.nic.google"
   },
   "gd": {
+    "_group": "centralnic",
     "host": "whois.nic.gd"
   },
   "gdn": {
@@ -2491,11 +2447,6 @@ var data = []byte(`
     "_type": "newgtld",
     "host": "whois.nic.gmo"
   },
-  "goodhands": {
-    "_group": "afiliassrs",
-    "_type": "newgtld",
-    "host": "whois.afilias-srs.net"
-  },
   "goodyear": {
     "_group": "afiliassrs",
     "_type": "newgtld",
@@ -2519,7 +2470,7 @@ var data = []byte(`
   "got": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.got"
   },
   "gov": {
     "host": "whois.dotgov.gov"
@@ -2533,7 +2484,7 @@ var data = []byte(`
   },
   "gr": {
     "adapter": "web",
-    "url": "https://grweb.ics.forth.gr/whois?lang=en"
+    "url": "https://grweb.ics.forth.gr/Whois?lang=en"
   },
   "grainger": {
     "_type": "newgtld",
@@ -2760,10 +2711,6 @@ var data = []byte(`
     "_type": "newgtld",
     "host": "whois.nic.honda"
   },
-  "honeywell": {
-    "_type": "newgtld",
-    "adapter": "none"
-  },
   "horse": {
     "_group": "mmregistry",
     "_type": "newgtld",
@@ -2786,7 +2733,7 @@ var data = []byte(`
   "hot": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.hot"
   },
   "hoteles": {
     "_type": "newgtld",
@@ -2857,7 +2804,7 @@ var data = []byte(`
     "host": "whois.id"
   },
   "ie": {
-    "host": "whois.domainregistry.ie"
+    "host": "whois.iedr.ie"
   },
   "ieee": {
     "_type": "newgtld",
@@ -2885,7 +2832,7 @@ var data = []byte(`
   "imdb": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.imdb"
   },
   "immo": {
     "_group": "donuts",
@@ -2898,7 +2845,12 @@ var data = []byte(`
     "host": "whois.nic.immobilien"
   },
   "in": {
-    "host": "whois.inregistry.net"
+    "host": "whois.registry.in"
+  },
+  "inc": {
+    "_group": "uniregistry",
+    "_type": "newgtld",
+    "host": "whois.nic.inc"
   },
   "industries": {
     "_group": "donuts",
@@ -2979,10 +2931,6 @@ var data = []byte(`
   "is": {
     "host": "whois.isnic.is"
   },
-  "iselect": {
-    "_type": "newgtld",
-    "host": "whois.nic.iselect"
-  },
   "ismaili": {
     "_group": "afiliassrs",
     "_type": "newgtld",
@@ -3014,10 +2962,6 @@ var data = []byte(`
     "_group": "afiliassrs",
     "_type": "newgtld",
     "host": "whois.nic.iveco"
-  },
-  "iwc": {
-    "_type": "newgtld",
-    "adapter": "none"
   },
   "jaguar": {
     "_type": "newgtld",
@@ -3061,10 +3005,6 @@ var data = []byte(`
     "_type": "newgtld",
     "host": "whois.nic.jio"
   },
-  "jlc": {
-    "_type": "newgtld",
-    "adapter": "none"
-  },
   "jll": {
     "_group": "afiliassrs",
     "_type": "newgtld",
@@ -3083,7 +3023,7 @@ var data = []byte(`
   },
   "jo": {
     "adapter": "web",
-    "url": "http://www.dns.jo/whois.aspx"
+    "url": "http://www.dns.jo/Whois.aspx"
   },
   "jobs": {
     "host": "whois.nic.jobs",
@@ -3097,12 +3037,12 @@ var data = []byte(`
   "jot": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.jot"
   },
   "joy": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.joy"
   },
   "jp": {
     "host": "whois.jprs.jp",
@@ -3181,7 +3121,7 @@ var data = []byte(`
   "kindle": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.kindle"
   },
   "kitchen": {
     "_group": "donuts",
@@ -3201,7 +3141,7 @@ var data = []byte(`
   "koeln": {
     "_group": "knipp",
     "_type": "newgtld",
-    "host": "whois-fe1.pdt.koeln.tango.knipp.de"
+    "host": "whois.ryce-rsp.com"
   },
   "komatsu": {
     "_type": "newgtld",
@@ -3260,10 +3200,6 @@ var data = []byte(`
     "_type": "newgtld",
     "host": "whois.nic.lacaixa"
   },
-  "ladbrokes": {
-    "_type": "newgtld",
-    "host": "whois.nic.ladbrokes"
-  },
   "lamborghini": {
     "_group": "afiliassrs",
     "_type": "newgtld",
@@ -3283,10 +3219,6 @@ var data = []byte(`
     "_group": "afiliassrs",
     "_type": "newgtld",
     "host": "whois.afilias-srs.net"
-  },
-  "lancome": {
-    "_type": "newgtld",
-    "host": "whois.nic.lancome"
   },
   "land": {
     "_group": "donuts",
@@ -3377,10 +3309,6 @@ var data = []byte(`
   "li": {
     "host": "whois.nic.li"
   },
-  "liaison": {
-    "_type": "newgtld",
-    "host": "whois.nic.liaison"
-  },
   "lidl": {
     "_type": "newgtld",
     "host": "whois.nic.lidl"
@@ -3406,7 +3334,7 @@ var data = []byte(`
   "like": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.like"
   },
   "lilly": {
     "_type": "newgtld",
@@ -3598,7 +3526,7 @@ var data = []byte(`
   "mango": {
     "_group": "coreregistry",
     "_type": "newgtld",
-    "host": "whois.mango.coreregistry.net"
+    "host": "whois.nic.mango"
   },
   "map": {
     "_group": "google",
@@ -3693,10 +3621,6 @@ var data = []byte(`
     "_type": "newgtld",
     "host": "whois.nic.menu"
   },
-  "meo": {
-    "_type": "newgtld",
-    "adapter": "none"
-  },
   "merckmsd": {
     "_type": "newgtld",
     "adapter": "none"
@@ -3727,7 +3651,7 @@ var data = []byte(`
   "mini": {
     "_group": "ksregistry",
     "_type": "newgtld",
-    "host": "whois.ksregistry.net"
+    "host": "whois.nic.mini"
   },
   "mint": {
     "_type": "newgtld",
@@ -3780,10 +3704,6 @@ var data = []byte(`
     "_type": "newgtld",
     "host": "whois.nic.mobile"
   },
-  "mobily": {
-    "_type": "newgtld",
-    "adapter": "none"
-  },
   "moda": {
     "_group": "donuts",
     "_type": "newgtld",
@@ -3796,7 +3716,7 @@ var data = []byte(`
   "moi": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.moi"
   },
   "mom": {
     "_group": "uniregistry",
@@ -3820,11 +3740,6 @@ var data = []byte(`
   "montblanc": {
     "_type": "newgtld",
     "adapter": "none"
-  },
-  "mopar": {
-    "_group": "afiliassrs",
-    "_type": "newgtld",
-    "host": "whois.afilias-srs.net"
   },
   "mormon": {
     "_group": "afiliassrs",
@@ -3858,11 +3773,6 @@ var data = []byte(`
     "_group": "donuts",
     "_type": "newgtld",
     "host": "whois.nic.movie"
-  },
-  "movistar": {
-    "_group": "knipp",
-    "_type": "newgtld",
-    "host": "whois-fe.movistar.tango.knipp.de"
   },
   "mp": {
     "adapter": "none"
@@ -3907,11 +3817,10 @@ var data = []byte(`
     "adapter": "none"
   },
   "mw": {
-    "adapter": "web",
-    "url": "http://www.registrar.mw/"
+    "host": "whois.nic.mw"
   },
   "mx": {
-    "host": "whois.nic.mx"
+    "host": "whois.mx"
   },
   "my": {
     "host": "whois.mynic.my"
@@ -3932,7 +3841,7 @@ var data = []byte(`
   },
   "nagoya": {
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.nagoya"
   },
   "name": {
     "host": "whois.nic.name",
@@ -4121,12 +4030,12 @@ var data = []byte(`
   "now": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.now"
   },
   "nowruz": {
     "_group": "agitsys",
     "_type": "newgtld",
-    "host": "whois.agitsys.net"
+    "host": "whois.nic.nowruz"
   },
   "nowtv": {
     "_group": "afiliassrs",
@@ -4183,7 +4092,7 @@ var data = []byte(`
   },
   "okinawa": {
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.okinawa"
   },
   "olayan": {
     "_type": "newgtld",
@@ -4273,9 +4182,9 @@ var data = []byte(`
     "host": "whois.za.org"
   },
   "organic": {
-    "_group": "afiliassrs",
+    "_group": "afilias",
     "_type": "newgtld",
-    "host": "whois.afilias-srs.net"
+    "host": "whois.afilias.net"
   },
   "orientexpress": {
     "_group": "afiliassrs",
@@ -4324,10 +4233,6 @@ var data = []byte(`
     "_type": "newgtld",
     "host": "whois.nic.gmo"
   },
-  "panerai": {
-    "_type": "newgtld",
-    "adapter": "none"
-  },
   "paris": {
     "_group": "nicfr",
     "_type": "newgtld",
@@ -4336,7 +4241,7 @@ var data = []byte(`
   "pars": {
     "_group": "agitsys",
     "_type": "newgtld",
-    "host": "whois.agitsys.net"
+    "host": "whois.nic.pars"
   },
   "partners": {
     "_group": "donuts",
@@ -4359,7 +4264,7 @@ var data = []byte(`
   "pay": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.pay"
   },
   "pccw": {
     "_group": "afiliassrs",
@@ -4426,10 +4331,6 @@ var data = []byte(`
     "_type": "newgtld",
     "host": "whois.nic.physio"
   },
-  "piaget": {
-    "_type": "newgtld",
-    "adapter": "none"
-  },
   "pics": {
     "_group": "uniregistry",
     "_type": "newgtld",
@@ -4451,7 +4352,7 @@ var data = []byte(`
   "pin": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.pin"
   },
   "ping": {
     "_type": "newgtld",
@@ -4512,7 +4413,7 @@ var data = []byte(`
   },
   "pn": {
     "adapter": "web",
-    "url": "http://www.pitcairn.pn/pnregistry/"
+    "url": "http://www.pitcairn.pn/PnRegistry/"
   },
   "pnc": {
     "_group": "afiliassrs",
@@ -4522,7 +4423,7 @@ var data = []byte(`
   "pohl": {
     "_group": "ksregistry",
     "_type": "newgtld",
-    "host": "whois.ksregistry.net"
+    "host": "whois.nic.pohl"
   },
   "poker": {
     "_group": "afilias",
@@ -4560,7 +4461,7 @@ var data = []byte(`
   "prime": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.prime"
   },
   "pro": {
     "host": "whois.afilias.net"
@@ -4673,7 +4574,7 @@ var data = []byte(`
   "read": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.read"
   },
   "realestate": {
     "_type": "newgtld",
@@ -4846,7 +4747,7 @@ var data = []byte(`
   "room": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.room"
   },
   "rs": {
     "host": "whois.rnids.rs"
@@ -4885,7 +4786,7 @@ var data = []byte(`
   },
   "ryukyu": {
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.ryukyu"
   },
   "sa": {
     "host": "whois.nic.net.sa"
@@ -4893,12 +4794,12 @@ var data = []byte(`
   "saarland": {
     "_group": "ksregistry",
     "_type": "newgtld",
-    "host": "whois.ksregistry.net"
+    "host": "whois.nic.saarland"
   },
   "safe": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.safe"
   },
   "safety": {
     "_type": "newgtld",
@@ -4942,10 +4843,6 @@ var data = []byte(`
     "_type": "newgtld",
     "host": "whois.nic.sap"
   },
-  "sapo": {
-    "_type": "newgtld",
-    "adapter": "none"
-  },
   "sarl": {
     "_group": "donuts",
     "_type": "newgtld",
@@ -4958,7 +4855,7 @@ var data = []byte(`
   "save": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.save"
   },
   "saxo": {
     "_group": "aridnrs",
@@ -5032,7 +4929,7 @@ var data = []byte(`
   "scot": {
     "_group": "coreregistry",
     "_type": "newgtld",
-    "host": "whois.scot.coreregistry.net"
+    "host": "whois.nic.scot"
   },
   "sd": {
     "adapter": "none"
@@ -5057,7 +4954,7 @@ var data = []byte(`
   "secure": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.secure"
   },
   "security": {
     "_group": "centralnic",
@@ -5135,7 +5032,7 @@ var data = []byte(`
   "shia": {
     "_group": "agitsys",
     "_type": "newgtld",
-    "host": "whois.agitsys.net"
+    "host": "whois.nic.shia"
   },
   "shiksha": {
     "_group": "afilias",
@@ -5149,7 +5046,7 @@ var data = []byte(`
   },
   "shop": {
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.shop"
   },
   "shopping": {
     "_group": "donuts",
@@ -5182,7 +5079,7 @@ var data = []byte(`
   "silk": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.silk"
   },
   "sina": {
     "_group": "afiliassrs",
@@ -5241,7 +5138,7 @@ var data = []byte(`
   "smile": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.smile"
   },
   "sn": {
     "host": "whois.nic.sn"
@@ -5290,7 +5187,7 @@ var data = []byte(`
   "song": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.song"
   },
   "sony": {
     "_type": "newgtld",
@@ -5306,11 +5203,6 @@ var data = []byte(`
     "_type": "newgtld",
     "host": "whois.nic.space"
   },
-  "spiegel": {
-    "_group": "ksregistry",
-    "_type": "newgtld",
-    "host": "whois.ksregistry.net"
-  },
   "sport": {
     "_type": "newgtld",
     "host": "whois.nic.sport"
@@ -5318,7 +5210,7 @@ var data = []byte(`
   "spot": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.spot"
   },
   "spreadbetting": {
     "_type": "newgtld",
@@ -5332,10 +5224,8 @@ var data = []byte(`
     "_type": "newgtld",
     "host": "whois.afilias-srs.net"
   },
-  "srt": {
-    "_group": "afiliassrs",
-    "_type": "newgtld",
-    "host": "whois.afilias-srs.net"
+  "ss": {
+    "host": "whois.nic.ss"
   },
   "st": {
     "host": "whois.nic.st"
@@ -5354,10 +5244,6 @@ var data = []byte(`
     "_type": "newgtld",
     "host": "whois.nic.star"
   },
-  "starhub": {
-    "_type": "newgtld",
-    "host": "whois.nic.starhub"
-  },
   "statebank": {
     "_group": "afiliassrs",
     "_type": "newgtld",
@@ -5366,10 +5252,6 @@ var data = []byte(`
   "statefarm": {
     "_type": "newgtld",
     "adapter": "none"
-  },
-  "statoil": {
-    "_type": "newgtld",
-    "host": "whois.nic.statoil"
   },
   "stc": {
     "_group": "centralnic",
@@ -5397,7 +5279,7 @@ var data = []byte(`
   },
   "stream": {
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.stream"
   },
   "studio": {
     "_group": "donuts",
@@ -5498,7 +5380,7 @@ var data = []byte(`
   "talk": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.talk"
   },
   "taobao": {
     "_type": "newgtld",
@@ -5537,7 +5419,7 @@ var data = []byte(`
   "tci": {
     "_group": "agitsys",
     "_type": "newgtld",
-    "host": "whois.agitsys.net"
+    "host": "whois.nic.tci"
   },
   "td": {
     "adapter": "web",
@@ -5564,15 +5446,6 @@ var data = []byte(`
   },
   "tel": {
     "host": "whois.nic.tel"
-  },
-  "telecity": {
-    "_type": "newgtld",
-    "host": "whois.nic.telecity"
-  },
-  "telefonica": {
-    "_group": "knipp",
-    "_type": "newgtld",
-    "host": "whois-fe.telefonica.tango.knipp.de"
   },
   "temasek": {
     "_group": "afiliassrs",
@@ -5689,7 +5562,7 @@ var data = []byte(`
   },
   "tokyo": {
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.tokyo"
   },
   "tools": {
     "_group": "donuts",
@@ -5786,17 +5659,17 @@ var data = []byte(`
   "tui": {
     "_group": "ksregistry",
     "_type": "newgtld",
-    "host": "whois.ksregistry.net"
+    "host": "whois.nic.tui"
   },
   "tunes": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.tunes"
   },
   "tushu": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.tushu"
   },
   "tv": {
     "host": "tvwhois.verisign-grs.com",
@@ -5826,11 +5699,6 @@ var data = []byte(`
   "ubs": {
     "_type": "newgtld",
     "host": "whois.nic.ubs"
-  },
-  "uconnect": {
-    "_group": "afiliassrs",
-    "_type": "newgtld",
-    "host": "whois.afilias-srs.net"
   },
   "ug": {
     "host": "whois.co.ug"
@@ -5902,7 +5770,7 @@ var data = []byte(`
   },
   "com.uy": {
     "adapter": "web",
-    "url": "https://nic.anteldata.com.uy/dns/consultawhois/whois.action"
+    "url": "https://nic.anteldata.com.uy/dns/consultaWhois/whois.action"
   },
   "uz": {
     "host": "whois.cctld.uz"
@@ -6008,14 +5876,6 @@ var data = []byte(`
     "_type": "newgtld",
     "host": "whois.nic.vision"
   },
-  "vista": {
-    "_type": "newgtld",
-    "host": "whois.nic.vista"
-  },
-  "vistaprint": {
-    "_type": "newgtld",
-    "host": "whois.nic.vistaprint"
-  },
   "viva": {
     "_group": "centralnic",
     "_type": "newgtld",
@@ -6093,11 +5953,7 @@ var data = []byte(`
   "wanggou": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
-  },
-  "warman": {
-    "_type": "newgtld",
-    "host": "whois.nic.warman"
+    "host": "whois.nic.wanggou"
   },
   "watch": {
     "_group": "donuts",
@@ -6214,7 +6070,7 @@ var data = []byte(`
   "wow": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.wow"
   },
   "ws": {
     "host": "whois.website.ws"
@@ -6266,7 +6122,7 @@ var data = []byte(`
   },
   "xn--2scrj9c": {
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.registry.in"
   },
   "xn--30rr7y": {
     "_group": "knet",
@@ -6286,6 +6142,9 @@ var data = []byte(`
   "xn--3e0b707e": {
     "host": "whois.kr"
   },
+  "xn--3hcrj9c": {
+    "host": "whois.registry.in"
+  },
   "xn--3oq18vl8pn36a": {
     "_group": "afiliassrs",
     "_type": "newgtld",
@@ -6301,10 +6160,10 @@ var data = []byte(`
   },
   "xn--45br5cyl": {
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.registry.in"
   },
   "xn--45brj9c": {
-    "host": "whois.inregistry.net"
+    "host": "whois.registry.in"
   },
   "xn--45q11c": {
     "_type": "newgtld",
@@ -6456,11 +6315,6 @@ var data = []byte(`
     "_type": "newgtld",
     "host": "whois.nic.xn--efvy88h"
   },
-  "xn--estv75g": {
-    "_group": "afiliassrs",
-    "_type": "newgtld",
-    "host": "whois.nic.xn--estv75g"
-  },
   "xn--fct429k": {
     "_group": "amazonregistry",
     "_type": "newgtld",
@@ -6496,7 +6350,7 @@ var data = []byte(`
     "host": "whois.nic.google"
   },
   "xn--fpcrj9c3d": {
-    "host": "whois.inregistry.net"
+    "host": "whois.registry.in"
   },
   "xn--fzc2c9e2c": {
     "host": "whois.nic.lk"
@@ -6517,7 +6371,7 @@ var data = []byte(`
     "adapter": "none"
   },
   "xn--gecrj9c": {
-    "host": "whois.inregistry.net"
+    "host": "whois.registry.in"
   },
   "xn--gk3at1e": {
     "_group": "amazonregistry",
@@ -6526,14 +6380,14 @@ var data = []byte(`
   },
   "xn--h2breg3eve": {
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.registry.in"
   },
   "xn--h2brj9c": {
-    "host": "whois.inregistry.net"
+    "host": "whois.registry.in"
   },
   "xn--h2brj9c8c": {
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.registry.in"
   },
   "xn--hxt814e": {
     "_type": "newgtld",
@@ -6622,7 +6476,10 @@ var data = []byte(`
   "xn--mgbab2bd": {
     "_group": "coreregistry",
     "_type": "newgtld",
-    "host": "whois.bazaar.coreregistry.net"
+    "host": "whois.nic.xn--mgbab2bd"
+  },
+  "xn--mgbah1a3hjkrd": {
+    "host": "whois.nic.mr"
   },
   "xn--mgbai9azgqp6j": {
     "_type": "newgtld",
@@ -6632,16 +6489,12 @@ var data = []byte(`
     "adapter": "web",
     "url": "http://idn.jo/whois_a.aspx"
   },
-  "xn--mgbb9fbpob": {
-    "_type": "newgtld",
-    "adapter": "none"
-  },
   "xn--mgbbh1a": {
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.registry.in"
   },
   "xn--mgbbh1a71e": {
-    "host": "whois.inregistry.net"
+    "host": "whois.registry.in"
   },
   "xn--mgbc0a9azcg": {
     "adapter": "none"
@@ -6656,7 +6509,7 @@ var data = []byte(`
   },
   "xn--mgbgu82a": {
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.registry.in"
   },
   "xn--mgbi4ecexp": {
     "_group": "aridnrs",
@@ -6669,7 +6522,7 @@ var data = []byte(`
   "xn--mgbt3dhd": {
     "_group": "agitsys",
     "_type": "newgtld",
-    "host": "whois.agitsys.net"
+    "host": "whois.nic.xn--mgbt3dhd"
   },
   "xn--mgbtx2b": {
     "host": "whois.cmc.iq"
@@ -6766,10 +6619,10 @@ var data = []byte(`
   },
   "xn--rvc1e0am3e": {
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.registry.in"
   },
   "xn--s9brj9c": {
-    "host": "whois.inregistry.net"
+    "host": "whois.registry.in"
   },
   "xn--ses554g": {
     "_type": "newgtld",
@@ -6796,12 +6649,12 @@ var data = []byte(`
   "xn--vermgensberater-ctb": {
     "_group": "ksregistry",
     "_type": "newgtld",
-    "host": "whois.ksregistry.net"
+    "host": "whois.nic.xn--vermgensberater-ctb"
   },
   "xn--vermgensberatung-pwb": {
     "_group": "ksregistry",
     "_type": "newgtld",
-    "host": "whois.ksregistry.net"
+    "host": "whois.nic.xn--vermgensberatung-pwb"
   },
   "xn--vhquv": {
     "_group": "donuts",
@@ -6836,7 +6689,7 @@ var data = []byte(`
     "host": "whois.nic.lk"
   },
   "xn--xkc2dl3a5ee0h": {
-    "host": "whois.inregistry.net"
+    "host": "whois.registry.in"
   },
   "xn--y9a3aq": {
     "host": "whois.amnic.net"
@@ -6850,10 +6703,6 @@ var data = []byte(`
   "xn--zfr164b": {
     "_type": "newgtld",
     "host": "whois.conac.cn"
-  },
-  "xperia": {
-    "_type": "newgtld",
-    "host": "whois.nic.xperia"
   },
   "xxx": {
     "host": "whois.nic.xxx"
@@ -6875,7 +6724,7 @@ var data = []byte(`
   "yamaxun": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.yamaxun"
   },
   "yandex": {
     "_type": "newgtld",
@@ -6896,12 +6745,12 @@ var data = []byte(`
   },
   "yokohama": {
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.yokohama"
   },
   "you": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.you"
   },
   "youtube": {
     "_group": "google",
@@ -6943,7 +6792,7 @@ var data = []byte(`
   "zappos": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.zappos"
   },
   "zara": {
     "_group": "afiliassrs",
@@ -6953,19 +6802,15 @@ var data = []byte(`
   "zero": {
     "_group": "amazonregistry",
     "_type": "newgtld",
-    "adapter": "none"
+    "host": "whois.nic.zero"
   },
   "zip": {
     "_group": "google",
     "_type": "newgtld",
     "host": "whois.nic.google"
   },
-  "zippo": {
-    "_type": "newgtld",
-    "adapter": "none"
-  },
   "zm": {
-    "host": "whois.nic.zm"
+    "host": "whois.zicta.zm"
   },
   "zone": {
     "_group": "donuts",
@@ -6975,7 +6820,7 @@ var data = []byte(`
   "zuerich": {
     "_group": "ksregistry",
     "_type": "newgtld",
-    "host": "whois.ksregistry.net"
+    "host": "whois.nic.zuerich"
   },
   "zw": {
     "adapter": "none"
