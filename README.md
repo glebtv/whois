@@ -37,7 +37,7 @@ Parser is called on whois result automatically.
 
 Also some fields from whois (nameservers, created date, expiration date) have additional guess processing.
 
-Please refer to [whois-parser-go](https://github.com/likexian/whois-parser-go)
+Please refer to [whois-parser](https://github.com/likexian/whois-parser)
 
 ## LICENSE
 
